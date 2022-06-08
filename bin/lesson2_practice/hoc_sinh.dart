@@ -9,9 +9,7 @@ class HocSinh{
   int? diemAnh;
   double? diemTB;
 
-  HocSinh({required this.id,required this.name, this.diemToan, this.diemAnh, this.diemVan
-
-});
+  HocSinh({required this.id,required this.name, this.diemToan, this.diemAnh, this.diemVan});
 
 // getset
   String getBirth(){
