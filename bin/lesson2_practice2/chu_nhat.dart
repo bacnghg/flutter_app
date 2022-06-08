@@ -13,6 +13,6 @@ class ChuNhat{
   }
 
   void getInfor(){
-    print("Chiều rộng: ${this.chieuRong} và chiều dài: ${this.chieuDai}, Thì Diện tích:"  + this.tinhDienTich().toString() + " và Chu vi: " + this.tinhChuVi().toString() );
+    print("Hình chữ nhật có chiều rộng: ${this.chieuRong} và chiều dài: ${this.chieuDai}, thì Chu vi: " + this.tinhChuVi().toString()  + " và  Diện tích: "  + this.tinhDienTich().toString());
   }
 }

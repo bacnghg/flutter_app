@@ -6,7 +6,6 @@ class Vuong extends ChuNhat{
   
   @override 
   void getInfor(){
-    print("Hình vuông:");
-    super.getInfor();
+    print("Hình vuông có độ dài cạnh: ${this.canh} Thì Chu vi: " + super.tinhChuVi().toString() + ", Diện tích: " + super.tinhDienTich().toString());
   }
 }
