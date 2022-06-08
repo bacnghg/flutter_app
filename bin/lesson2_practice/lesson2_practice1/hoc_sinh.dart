@@ -11,10 +11,11 @@ class HocSinh{
 
   HocSinh({required this.id,required this.name, this.diemToan, this.diemAnh, this.diemVan});
 
-// getset
+  // get
   String getBirth(){
     return this._birth!;
   }
+  // set
   void setBirth({required String birth}){
     this._birth = birth;
   }
