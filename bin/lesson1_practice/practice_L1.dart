@@ -17,7 +17,9 @@ void practice1(){
     sum1to1000 += i;
     if(sum1to1000 <= 400){
         listEven.add(i);
-      }
+      } else{
+        break;
+    }
   }
   print(listEven);
 }
