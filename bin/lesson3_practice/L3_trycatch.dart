@@ -2,11 +2,11 @@ void main() {
   checkTuoi();
 }
 
-
+// bài tập try - catch
 void checkTuoi(){
-    /// List tuổi tác
-/// List: Kiểm tra các phần tử, nếu phần tử không hợp lệ thì đưa ra Exception
-///  thông Tuổi hợp kêh luôn dương, và không thể là số thập phân
+  /// List tuổi tác
+  /// List: Kiểm tra các phần tử, nếu phần tử không hợp lệ thì đưa ra Exception
+  ///  thông Tuổi hợp kêh luôn dương, và không thể là số thập phân
   var ageList = [1, 2, 3, 8,4 ,20, 25, 26, -30, 15.5, 40, 65];
   for(var i = 0; i < ageList.length; i++){
     try{
