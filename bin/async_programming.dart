@@ -23,11 +23,11 @@ void main(List<String> arguments) async{
   // readStream1(numberStream: numberStream2);
 
   // Lấy cách 1
-  Stream<int> numberStream = makeNumberStream();
-  readStream2(numberStream: numberStream);
+  // Stream<int> numberStream = makeNumberStream();
+  // readStream2(numberStream: numberStream);
   // Lấy cách 2
-  // Stream<int> numberStream2 = makeSecondStream(maxNumber: 6);
-  // readStream2(numberStream: numberStream2);
+  Stream<int> numberStream2 = makeSecondStream(maxNumber: 6);
+  readStream2(numberStream: numberStream2);
 
 }
 
